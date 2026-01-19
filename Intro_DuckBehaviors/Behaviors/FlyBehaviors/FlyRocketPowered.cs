@@ -1,6 +1,6 @@
-﻿using Intro_DuckBehaviors.Interfaces;
+﻿using CH0_Intro_DuckBehaviors.Interfaces;
 
-namespace Intro_DuckBehaviors.Behaviors.FlyBehaviors
+namespace CH0_Intro_DuckBehaviors.Behaviors.FlyBehaviors
 {
     public class FlyRocketPowered : IFlyBehavior
     {

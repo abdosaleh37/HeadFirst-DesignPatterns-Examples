@@ -1,7 +1,7 @@
-﻿using Intro_DuckBehaviors.Behaviors.FlyBehaviors;
-using Intro_DuckBehaviors.Behaviors.QuackBehaviors;
+﻿using CH0_Intro_DuckBehaviors.Behaviors.FlyBehaviors;
+using CH0_Intro_DuckBehaviors.Behaviors.QuackBehaviors;
 
-namespace Intro_DuckBehaviors.Models
+namespace CH0_Intro_DuckBehaviors.Models
 {
     public class ModelDuck : Duck
     {
