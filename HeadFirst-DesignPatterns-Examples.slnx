@@ -1,4 +1,4 @@
 <Solution>
-  <Project Path="CH2_TheObserverPattern_WeatherApp/CH2_TheObserverPattern_WeatherApp.csproj" Id="6056e41b-59e0-40cc-8bb6-afc87f473762" />
-  <Project Path="Intro_DuckBehaviors/Ch0_Intro_DuckBehaviors.csproj" />
+  <Project Path="Ch2_TheObserverPattern_WeatherApp/Ch2_TheObserverPattern_WeatherApp.csproj" Id="6056e41b-59e0-40cc-8bb6-afc87f473762" />
+  <Project Path="Ch1_Intro_DuckBehaviors/Ch1_Intro_DuckBehaviors.csproj" />
 </Solution>

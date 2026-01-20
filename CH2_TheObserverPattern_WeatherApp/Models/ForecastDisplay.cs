@@ -1,6 +1,6 @@
-﻿using CH2_TheObserverPattern_WeatherApp.Interfaces;
+﻿using Ch2_TheObserverPattern_WeatherApp.Interfaces;
 
-namespace CH2_TheObserverPattern_WeatherApp.Models
+namespace Ch2_TheObserverPattern_WeatherApp.Models
 {
     public class ForecastDisplay : IObserver, IDisplayElement
     {

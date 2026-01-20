@@ -1,6 +1,6 @@
-﻿using CH2_TheObserverPattern_WeatherApp.Models;
+﻿using Ch2_TheObserverPattern_WeatherApp.Models;
 
-namespace CH2_TheObserverPattern_WeatherApp
+namespace Ch2_TheObserverPattern_WeatherApp
 {
     internal class Program
     {

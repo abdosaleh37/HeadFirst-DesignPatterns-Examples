@@ -1,7 +1,7 @@
-﻿using CH0_Intro_DuckBehaviors.Behaviors.FlyBehaviors;
-using CH0_Intro_DuckBehaviors.Models;
+﻿using Ch1_Intro_DuckBehaviors.Behaviors.FlyBehaviors;
+using Ch1_Intro_DuckBehaviors.Models;
 
-namespace CH0_Intro_DuckBehaviors
+namespace Ch1_Intro_DuckBehaviors
 {
     public class Program
     {

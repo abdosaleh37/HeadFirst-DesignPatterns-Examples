@@ -1,6 +1,6 @@
-﻿using CH0_Intro_DuckBehaviors.Interfaces;
+﻿using Ch1_Intro_DuckBehaviors.Interfaces;
 
-namespace CH0_Intro_DuckBehaviors.Models
+namespace Ch1_Intro_DuckBehaviors.Models
 {
     public abstract class Duck
     {

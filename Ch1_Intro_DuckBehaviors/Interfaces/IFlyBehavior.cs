@@ -1,4 +1,4 @@
-﻿namespace CH0_Intro_DuckBehaviors.Interfaces
+﻿namespace Ch1_Intro_DuckBehaviors.Interfaces
 {
     public interface IFlyBehavior
     {

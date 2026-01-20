@@ -1,6 +1,6 @@
-﻿using CH0_Intro_DuckBehaviors.Interfaces;
+﻿using Ch1_Intro_DuckBehaviors.Interfaces;
 
-namespace CH0_Intro_DuckBehaviors.Behaviors.FlyBehaviors
+namespace Ch1_Intro_DuckBehaviors.Behaviors.FlyBehaviors
 {
     public class FlyWithWings : IFlyBehavior
     {

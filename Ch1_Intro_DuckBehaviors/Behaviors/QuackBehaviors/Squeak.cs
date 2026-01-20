@@ -1,6 +1,6 @@
-﻿using CH0_Intro_DuckBehaviors.Interfaces;
+﻿using Ch1_Intro_DuckBehaviors.Interfaces;
 
-namespace CH0_Intro_DuckBehaviors.Behaviors.QuackBehaviors
+namespace Ch1_Intro_DuckBehaviors.Behaviors.QuackBehaviors
 {
     public class Squeak : IQuackBehavior
     {

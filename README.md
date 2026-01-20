@@ -15,30 +15,36 @@ The Strategy Pattern defines a family of algorithms, encapsulates each one, and 
 
 ## How to Build and Run
 
-### Prerequisites
-- .NET SDK (6.0 or later)
+````markdown
+# Head First Design Patterns — Examples (C#)
 
-### Build
-```bash
+This repository collects small example projects demonstrating object-oriented design patterns from Head First Design Patterns. Each chapter/example is a focused, runnable C# project with its own README.md describing the pattern and how the sample maps to the pattern.
+
+Included projects
+- `Ch1_Intro_DuckBehaviors` — Strategy pattern; ducks delegate flying and quacking to behavior objects. See [Ch1_Intro_DuckBehaviors/README.md](Ch1_Intro_DuckBehaviors/README.md).
+- `CH2_TheObserverPattern_WeatherApp` — Observer pattern; `WeatherData` notifies display observers about measurement changes. See [CH2_TheObserverPattern_WeatherApp/README.md](CH2_TheObserverPattern_WeatherApp/README.md).
+
+General guidance
+- Each project targets .NET; check the project folder for target frameworks (e.g., `net10.0`) and the project README for specifics.
+- Use Visual Studio or the .NET CLI to build and run individual projects.
+
+Prerequisites
+- .NET SDK (recommended: latest stable; examples include outputs for `net10.0` in `bin/` folders)
+
+Build all projects
+```powershell
 dotnet build
 ```
 
-### Run
-```bash
-dotnet run --project Intro_DuckBehaviors
+Run a single project
+```powershell
+dotnet run --project Ch1_Intro_DuckBehaviors
+dotnet run --project CH2_TheObserverPattern_WeatherApp
 ```
 
-## Example Usage
+Notes for contributors
+- Add a folder per example/project and include a `README.md` that explains the pattern, maps files to pattern roles, and shows how to run the example.
+- Keep examples small and focused on illustrating the pattern, not production-ready implementations.
 
-The program creates different types of ducks and demonstrates:
-- Different flying behaviors (flying with wings, not flying, rocket-powered)
-- Different quacking behaviors (quack, squeak, mute)
-- Dynamic behavior changes at runtime
-
-## Learning Outcomes
-
-This example teaches:
-1. How to identify aspects of your code that vary and separate them from what stays the same
-2. How to program to an interface, not an implementation
-3. How to favor composition over inheritance
-4. How behaviors can be changed at runtime for maximum flexibility
+Further reading
+- Head First Design Patterns — companion examples and explanations.

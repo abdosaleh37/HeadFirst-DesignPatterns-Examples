@@ -1,4 +1,4 @@
-﻿namespace CH2_TheObserverPattern_WeatherApp.Interfaces
+﻿namespace Ch2_TheObserverPattern_WeatherApp.Interfaces
 {
     public interface IObserver
     {
