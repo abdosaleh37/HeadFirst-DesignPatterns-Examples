@@ -2,16 +2,18 @@
 
 This project demonstrates the **Design Pattern** from the Head First Design Patterns book using C#.
 
-## Design Pattern: Strategy Pattern
+## About these examples
 
-The Strategy Pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+Each chapter is a focused C# example that illustrates a single design pattern from Head First Design Patterns. The examples show the pattern's intent, participants (roles), a minimal implementation, and how to run the sample.
 
-## Key Concepts
+What you'll find in each chapter
 
-- **Composition over Inheritance**: Instead of inheriting behaviors, ducks are composed with behavior objects
-- **Program to Interfaces**: Behaviors are defined by interfaces, not concrete implementations
-- **Favor Composition**: Ducks delegate behavior to composed objects rather than implementing behaviors themselves
-- **Runtime Flexibility**: Behaviors can be changed at runtime using setter methods
+- **Intent & When to use**: a short description of the pattern's purpose and typical use cases.
+- **Key participants**: mapping of pattern roles (e.g., Component, Decorator, Subject, Observer) to concrete classes in the example.
+- **How it works**: a brief explanation of the interaction between classes.
+- **Trade-offs and extensions**: design considerations and simple ideas for extending the example.
+
+See the README inside each chapter folder for a pattern-specific overview and file mapping.
 
 ## How to Build and Run
 
@@ -23,6 +25,7 @@ This repository collects small example projects demonstrating object-oriented de
 Included projects
 - `Ch1_Intro_DuckBehaviors` — Strategy pattern; ducks delegate flying and quacking to behavior objects. See [Ch1_Intro_DuckBehaviors/README.md](Ch1_Intro_DuckBehaviors/README.md).
 - `CH2_TheObserverPattern_WeatherApp` — Observer pattern; `WeatherData` notifies display observers about measurement changes. See [CH2_TheObserverPattern_WeatherApp/README.md](CH2_TheObserverPattern_WeatherApp/README.md).
+- `Ch3_TheDecoratorPattern_StarbuzzCoffee` — Decorator pattern; beverages are decorated with condiment decorators. See [Ch3_TheDecoratorPattern_StarbuzzCoffee/README.md](Ch3_TheDecoratorPattern_StarbuzzCoffee/README.md).
 
 General guidance
 - Each project targets .NET; check the project folder for target frameworks (e.g., `net10.0`) and the project README for specifics.
@@ -40,6 +43,7 @@ Run a single project
 ```powershell
 dotnet run --project Ch1_Intro_DuckBehaviors
 dotnet run --project CH2_TheObserverPattern_WeatherApp
+dotnet run --project Ch3_TheDecoratorPattern_StarbuzzCoffee
 ```
 
 Notes for contributors

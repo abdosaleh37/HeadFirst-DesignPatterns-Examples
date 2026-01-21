@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Ch2_TheObserverPattern_WeatherApp/Ch2_TheObserverPattern_WeatherApp.csproj" Id="6056e41b-59e0-40cc-8bb6-afc87f473762" />
   <Project Path="Ch1_Intro_DuckBehaviors/Ch1_Intro_DuckBehaviors.csproj" />
+  <Project Path="Ch3_TheDecoratorPattern_StarbuzzCoffee/Ch3_TheDecoratorPattern_StarbuzzCoffee.csproj" Id="6d832bea-c043-4850-a9ce-a0e6ce9c949a" />
 </Solution>
