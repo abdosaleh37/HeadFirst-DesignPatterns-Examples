@@ -18,6 +18,7 @@ namespace Ch1_Intro_DuckBehaviors
             Duck model = new ModelDuck();
             model.Display();
             model.PerformFly();
+
             model.FlyBehavior = new FlyRocketPowered();
             model.PerformFly();
         }

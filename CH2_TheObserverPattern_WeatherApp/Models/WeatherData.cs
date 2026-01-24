@@ -9,20 +9,11 @@ namespace Ch2_TheObserverPattern_WeatherApp.Models
         public float Humidity { get; private set; }
         public float Pressure { get; private set; }
 
-        public WeatherData()
-        {
-            Observers = new List<IObserver>();
-        }
+        public WeatherData() => Observers = new List<IObserver>();
 
-        public void RegisterObserver(IObserver o)
-        {
-            Observers.Add(o);
-        }
+        public void RegisterObserver(IObserver o) => Observers.Add(o);
 
-        public void RemoveObserver(IObserver o)
-        {
-            Observers.Remove(o);
-        }
+        public void RemoveObserver(IObserver o) => Observers.Remove(o);
 
         public void NotifyObservers()
         {
@@ -32,10 +23,7 @@ namespace Ch2_TheObserverPattern_WeatherApp.Models
             }
         }
 
-        public void MeasurementsChanged()
-        {
-            NotifyObservers();
-        }
+        public void MeasurementsChanged() => NotifyObservers();
 
         public void SetMeasurements(float temperature, float humidity, float pressure)
         {

@@ -22,9 +22,8 @@ namespace Ch2_TheObserverPattern_WeatherApp.Models
             _pressure = _weatherData.Pressure;
             Display();
         }
-        public void Display()
-        {
-            Console.WriteLine($"Third Party Display - Temp: {_temperature}°F, Humidity: {_humidity}%, Pressure: {_pressure} hPa");
-        }
+        public void Display() => 
+            Console.WriteLine($"Third Party Display - Temp: {_temperature}°F, " +
+                $"Humidity: {_humidity}%, Pressure: {_pressure} hPa");
     }
 }

@@ -32,9 +32,6 @@ namespace Ch2_TheObserverPattern_WeatherApp.Models
                 0.0000000000481975 * (t * t * t * rh * rh * rh));
         }
 
-        public void Display()
-        {
-            Console.WriteLine($"Heat index is {_heatIndex:F2}");
-        }
+        public void Display() => Console.WriteLine($"Heat index is {_heatIndex:F2}");
     }
 }

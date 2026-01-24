@@ -12,7 +12,7 @@ namespace Ch3_TheDecoratorPattern_StarbuzzCoffee
             Console.WriteLine($"{beverage1.Description} $" +
                 $"{beverage1.Cost():0.00}");
 
-            Console.WriteLine("====================================================");
+            Console.WriteLine("========================================================================");
 
             Beverage beverage2 = new DarkRoast();
             beverage2 = new Mocha(beverage2);
@@ -21,7 +21,7 @@ namespace Ch3_TheDecoratorPattern_StarbuzzCoffee
             Console.WriteLine($"{beverage2.Description} $" +
                 $"{beverage2.Cost():0.00}");
 
-            Console.WriteLine("====================================================");
+            Console.WriteLine("========================================================================");
 
             Beverage beverage3 = new HouseBlend();
             beverage3 = new Soy(beverage3);

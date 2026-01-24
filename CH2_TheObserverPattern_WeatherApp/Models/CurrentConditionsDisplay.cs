@@ -21,10 +21,8 @@ namespace Ch2_TheObserverPattern_WeatherApp.Models
             Display();
         }
 
-        public void Display()
-        {
-            Console.WriteLine($"Current conditions: {_temperature}°F and {_humidity}% humidity");
-        }
+        public void Display() => Console.WriteLine($"Current conditions: {_temperature}°F " +
+            $"and {_humidity}% humidity");
 
     }
 }

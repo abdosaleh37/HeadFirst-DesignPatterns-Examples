@@ -11,9 +11,6 @@ namespace Ch1_Intro_DuckBehaviors.Models
             QuackBehavior = new QuackSound();
         }
 
-        public override void Display()
-        {
-            Console.WriteLine("I'm a real Mallard duck");
-        }
+        public override void Display() => Console.WriteLine("I'm a real Mallard duck");
     }
 }

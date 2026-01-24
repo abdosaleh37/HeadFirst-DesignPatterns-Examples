@@ -11,9 +11,6 @@ namespace Ch1_Intro_DuckBehaviors.Models
             QuackBehavior = new MuteQuack();
         }
 
-        public override void Display()
-        {
-            Console.WriteLine("I'm a model duck");
-        }
+        public override void Display() => Console.WriteLine("I'm a model duck");
     }
 }

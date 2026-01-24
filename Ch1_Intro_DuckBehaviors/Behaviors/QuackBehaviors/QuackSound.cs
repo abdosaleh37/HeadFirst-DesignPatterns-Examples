@@ -4,9 +4,6 @@ namespace Ch1_Intro_DuckBehaviors.Behaviors.QuackBehaviors
 {
     public class QuackSound : IQuackBehavior
     {
-        public void Quack()
-        {
-            Console.WriteLine("Quack quack!");
-        }
+        public void Quack() => Console.WriteLine("Quack quack!");
     }
 }
