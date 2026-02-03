@@ -4,7 +4,9 @@
     {
         private bool isEmpty;
         private bool isBoiled;
+
         private static ChocolateBoilerThreadSafeLazy? uniqueInstance;
+
         private static readonly object lockObject = new object();
 
         private ChocolateBoilerThreadSafeLazy()

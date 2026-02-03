@@ -4,6 +4,7 @@
     {
         private bool isEmpty;
         private bool isBoiled;
+
         private static ChocolateBoilerNotThreadSafe? uniqueInstance;
 
         private ChocolateBoilerNotThreadSafe()
