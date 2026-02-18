@@ -4,4 +4,6 @@
   <Project Path="Ch3_TheDecoratorPattern_StarbuzzCoffee/Ch3_TheDecoratorPattern_StarbuzzCoffee.csproj" Id="6d832bea-c043-4850-a9ce-a0e6ce9c949a" />
   <Project Path="Ch5_TheSingletonPattern_TheChocolateFactory/Ch5_TheSingletonPattern_TheChocolateFactory.csproj" Id="e4af5ff6-929c-472d-bdb7-ee5b3f7f6575" />
   <Project Path="Ch6_TheCommandPattern_RemoteControl/Ch6_TheCommandPattern_RemoteControl.csproj" Id="24ef9ec0-f91e-495a-ac23-ca6a7fb18bc2" />
+  <Project Path="Ch7_II_TheFacadePattern/Ch7_II_TheFacadePattern.csproj" Id="b0d6d206-b4cf-4676-9514-ae60b48431cd" />
+  <Project Path="Ch7_I_TheAdapterPattern/Ch7_I_TheAdapterPattern.csproj" Id="ccd4a7c9-94a4-4bc1-9861-f818dbfa4b2b" />
 </Solution>
