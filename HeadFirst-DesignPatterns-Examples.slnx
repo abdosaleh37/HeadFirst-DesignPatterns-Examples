@@ -7,4 +7,5 @@
   <Project Path="Ch6_TheCommandPattern/Ch6_TheCommandPattern.csproj" Id="24ef9ec0-f91e-495a-ac23-ca6a7fb18bc2" />
   <Project Path="Ch7_A_TheAdapterPattern/Ch7_A_TheAdapterPattern.csproj" Id="ccd4a7c9-94a4-4bc1-9861-f818dbfa4b2b" />
   <Project Path="Ch7_B_TheFacadePattern/Ch7_B_TheFacadePattern.csproj" Id="b0d6d206-b4cf-4676-9514-ae60b48431cd" />
+  <Project Path="Ch8_TheTemplatePattern/Ch8_TheTemplatePattern.csproj" Id="83c164f4-c489-41ce-aff8-db081e3fca57" />
 </Solution>
