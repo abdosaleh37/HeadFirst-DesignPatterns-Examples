@@ -1,6 +1,6 @@
-﻿using Ch8_TheTemplatePattern.Abstracts;
+﻿using Ch8_TheTemplateMethodPattern.Abstracts;
 
-namespace Ch8_TheTemplatePattern.Beverages
+namespace Ch8_TheTemplateMethodPattern.Beverages
 {
     public class TeaWithHook : CaffeineBeverage
     {

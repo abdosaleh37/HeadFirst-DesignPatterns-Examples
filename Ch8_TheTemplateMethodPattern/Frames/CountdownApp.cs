@@ -1,6 +1,4 @@
-﻿using Ch8_TheTemplatePattern.Frames;
-
-namespace Ch8_TheTemplatePattern.Frames
+﻿namespace Ch8_TheTemplateMethodPattern.Frames
 {
     public class CountdownApp : AbstractApplicationFrame
     {

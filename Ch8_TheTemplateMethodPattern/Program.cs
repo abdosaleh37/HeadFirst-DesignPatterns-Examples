@@ -1,6 +1,6 @@
-﻿using Ch8_TheTemplatePattern.Beverages;
-using Ch8_TheTemplatePattern.Frames;
-using Ch8_TheTemplatePattern.Sorting;
+﻿using Ch8_TheTemplateMethodPattern.Beverages;
+using Ch8_TheTemplateMethodPattern.Frames;
+using Ch8_TheTemplateMethodPattern.Sorting;
 
 // ─────────────────────────────────────────────────────────────────────────────
 //  CHAPTER 8 – THE TEMPLATE METHOD PATTERN

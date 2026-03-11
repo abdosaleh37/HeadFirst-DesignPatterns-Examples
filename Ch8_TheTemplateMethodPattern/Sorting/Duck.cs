@@ -1,4 +1,4 @@
-﻿namespace Ch8_TheTemplatePattern.Sorting
+﻿namespace Ch8_TheTemplateMethodPattern.Sorting
 {
     public class Duck : IComparable<Duck>
     {

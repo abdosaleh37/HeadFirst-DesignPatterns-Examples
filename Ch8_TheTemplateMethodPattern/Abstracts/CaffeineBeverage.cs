@@ -1,4 +1,4 @@
-﻿namespace Ch8_TheTemplatePattern.Abstracts
+﻿namespace Ch8_TheTemplateMethodPattern.Abstracts
 {
     public abstract class CaffeineBeverage
     {
