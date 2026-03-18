@@ -21,11 +21,9 @@ This solution contains multiple standalone C# console applications, each demonst
 
 **Pattern:** Define a family of algorithms, encapsulate each one, and make them interchangeable.
 
-**Example:** A duck simulator where different duck types can fly and quack in different ways. Behaviors are encapsulated as separate classes rather than inherited, allowing runtime behavior changes.
-
 **Key Concepts:** Composition over inheritance, encapsulating what varies, programming to interfaces
 
-📁 [Ch1_Intro_DuckBehaviors/README.md](Ch1_Intro_DuckBehaviors/README.md)
+📁 [Ch1_Intro_TheStrategyPattern/README.md](Ch1_Intro_TheStrategyPattern/README.md)
 
 ---
 
@@ -33,35 +31,119 @@ This solution contains multiple standalone C# console applications, each demonst
 
 **Pattern:** Define a one-to-many dependency between objects so that when one object changes state, all dependents are notified automatically.
 
-**Example:** A weather monitoring application where `WeatherData` acts as the subject, and various display elements (current conditions, statistics, forecast) act as observers that get updated when measurements change.
+**Key Concepts:** Loose coupling, push vs pull models, dynamic observer registration
 
-**Key Concepts:** Loose coupling, push vs pull models, dynamic registration/removal of observers
-
-📁 [Ch2_TheObserverPattern_WeatherApp/README.md](Ch2_TheObserverPattern_WeatherApp/README.md)
+📁 [Ch2_TheObserverPattern/README.md](Ch2_TheObserverPattern/README.md)
 
 ---
 
 ### Chapter 3: Decorator Pattern - Starbuzz Coffee
 
-**Pattern:** Attach additional responsibilities to an object dynamically, providing a flexible alternative to subclassing.
+**Pattern:** Attach responsibilities to objects dynamically using wrappers.
 
-**Example:** A coffee shop ordering system where beverages (Espresso, DarkRoast, Decaf) can be decorated with condiments (Mocha, Soy, Whip) at runtime. Each decorator adds its own cost and description.
+**Key Concepts:** Open/Closed Principle, composition, flexible behavior extension
 
-**Key Concepts:** Open/Closed Principle, wrapping objects, dynamic behavior composition
+📁 [Ch3_TheDecoratorPattern/README.md](Ch3_TheDecoratorPattern/README.md)
 
-📁 [Ch3_TheDecoratorPattern_StarbuzzCoffee/README.md](Ch3_TheDecoratorPattern_StarbuzzCoffee/README.md)
+---
+
+### Chapter 4: Factory Patterns - Pizza Store
+
+**Pattern Group:** Simple Factory, Factory Method, and Abstract Factory.
+
+**Key Concepts:** Encapsulated object creation, dependency inversion, product families
+
+📁 [Ch4_TheFactoryPattern/README.md](Ch4_TheFactoryPattern/README.md)
 
 ---
 
 ### Chapter 5: Singleton Pattern - Chocolate Factory
 
-**Pattern:** Ensure a class has only one instance and provide a global point of access to it.
+**Pattern:** Ensure a class has exactly one instance and provide global access.
 
-**Example:** A chocolate boiler controller that must have exactly one instance to prevent multiple processes from filling, boiling, or draining simultaneously.
+**Key Concepts:** Single instance control, thread safety, eager vs lazy initialization
 
-**Key Concepts:** Single instance control, global access point, thread safety, lazy vs eager initialization
+📁 [Ch5_TheSingletonPattern/README.md](Ch5_TheSingletonPattern/README.md)
 
-📁 [Ch5_TheSingletonPattern_TheChocolateFactory/README.md](Ch5_TheSingletonPattern_TheChocolateFactory/README.md)
+---
+
+### Chapter 6: Command Pattern - Remote Control
+
+**Pattern:** Encapsulate a request as an object.
+
+**Key Concepts:** Undo support, macro commands, decoupled invoker/receiver
+
+📁 [Ch6_TheCommandPattern/README.md](Ch6_TheCommandPattern/README.md)
+
+---
+
+### Chapter 7A: Adapter Pattern
+
+**Pattern:** Convert one interface into another expected by the client.
+
+**Key Concepts:** Object adapters, legacy integration, interface translation
+
+📁 [Ch7_A_TheAdapterPattern/README.md](Ch7_A_TheAdapterPattern/README.md)
+
+---
+
+### Chapter 7B: Facade Pattern
+
+**Pattern:** Provide a simplified interface to a subsystem.
+
+**Key Concepts:** Subsystem simplification, reduced coupling, orchestration API
+
+📁 [Ch7_B_TheFacadePattern/README.md](Ch7_B_TheFacadePattern/README.md)
+
+---
+
+### Chapter 8: Template Method Pattern
+
+**Pattern:** Define an algorithm skeleton and let subclasses fill specific steps.
+
+**Key Concepts:** Inversion of control, hooks, code reuse through templates
+
+📁 [Ch8_TheTemplateMethodPattern/README.md](Ch8_TheTemplateMethodPattern/README.md)
+
+---
+
+### Chapter 9A: Iterator Pattern
+
+**Pattern:** Provide a way to access elements of a collection sequentially without exposing representation.
+
+**Key Concepts:** Traversal abstraction, aggregate interfaces, decoupled iteration
+
+📁 [Ch9_A_TheIteratorPattern/README.md](Ch9_A_TheIteratorPattern/README.md)
+
+---
+
+### Chapter 9B: Composite Pattern
+
+**Pattern:** Compose objects into tree structures to represent part-whole hierarchies.
+
+**Key Concepts:** Uniform treatment of leaf/composite objects, recursive composition
+
+📁 [Ch9_B_TheCompositePattern/README.md](Ch9_B_TheCompositePattern/README.md)
+
+---
+
+### Chapter 10: State Pattern - Gumball Machine
+
+**Pattern:** Allow an object to change behavior when internal state changes.
+
+**Key Concepts:** State objects, transition management, removal of conditional logic
+
+📁 [Ch10_TheStatePattern/README.md](Ch10_TheStatePattern/README.md)
+
+---
+
+### Chapter 11: Proxy Pattern - Remote, Virtual, Protection
+
+**Pattern:** Provide a surrogate or placeholder for another object to control access.
+
+**Key Concepts:** Remote access, lazy loading, authorization boundaries
+
+📁 [Ch11_TheProxyPattern/README.md](Ch11_TheProxyPattern/README.md)
 
 ---
 
@@ -99,7 +181,7 @@ dotnet build
 Build a specific project:
 
 ```powershell
-dotnet build Ch1_Intro_DuckBehaviors
+dotnet build Ch1_Intro_TheStrategyPattern
 ```
 
 ### Running Examples
@@ -107,10 +189,19 @@ dotnet build Ch1_Intro_DuckBehaviors
 Run any project individually:
 
 ```powershell
-dotnet run --project Ch1_Intro_DuckBehaviors
-dotnet run --project Ch2_TheObserverPattern_WeatherApp
-dotnet run --project Ch3_TheDecoratorPattern_StarbuzzCoffee
-dotnet run --project Ch5_TheSingletonPattern_TheChocolateFactory
+dotnet run --project Ch1_Intro_TheStrategyPattern
+dotnet run --project Ch2_TheObserverPattern
+dotnet run --project Ch3_TheDecoratorPattern
+dotnet run --project Ch4_TheFactoryPattern
+dotnet run --project Ch5_TheSingletonPattern
+dotnet run --project Ch6_TheCommandPattern
+dotnet run --project Ch7_A_TheAdapterPattern
+dotnet run --project Ch7_B_TheFacadePattern
+dotnet run --project Ch8_TheTemplateMethodPattern
+dotnet run --project Ch9_A_TheIteratorPattern
+dotnet run --project Ch9_B_TheCompositePattern
+dotnet run --project Ch10_TheStatePattern
+dotnet run --project Ch11_TheProxyPattern
 ```
 
 Or open the solution in Visual Studio and run individual projects through the IDE.
