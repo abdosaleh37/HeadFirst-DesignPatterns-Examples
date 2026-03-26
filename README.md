@@ -147,6 +147,17 @@ This solution contains multiple standalone C# console applications, each demonst
 
 ---
 
+### Chapter 12: Compound Pattern - Duck Simulator + MVC
+
+**Pattern Type:** Pattern composition (multiple patterns working together).
+
+**Key Concepts:** Adapter, Decorator, Abstract Factory, Composite, Observer,
+and MVC collaboration
+
+📁 [Ch12_TheCompoundPattern/README.md](Ch12_TheCompoundPattern/README.md)
+
+---
+
 ## 🏗️ Solution Structure
 
 Each chapter is organized as a separate .NET console application with:
@@ -155,11 +166,11 @@ Each chapter is organized as a separate .NET console application with:
 ChX_PatternName_Example/
 ├── README.md                    # Detailed pattern explanation
 ├── Program.cs                   # Entry point demonstrating the pattern
-├── ChX_PatternName.csproj      # Project file
+├── ChX_PatternName.csproj       # Project file
 ├── Interfaces/                  # Pattern interfaces
-├── Models/ or Abstracts/       # Core implementation classes
-├── Behaviors/ or Condiments/   # Pattern-specific components
-└── bin/obj/                    # Build outputs
+├── Models/ or Abstracts/        # Core implementation classes
+├── Behaviors/ or Condiments/    # Pattern-specific components
+└── bin/obj/                     # Build outputs
 ```
 
 ## 🚀 Getting Started
@@ -202,6 +213,7 @@ dotnet run --project Ch9_A_TheIteratorPattern
 dotnet run --project Ch9_B_TheCompositePattern
 dotnet run --project Ch10_TheStatePattern
 dotnet run --project Ch11_TheProxyPattern
+dotnet run --project Ch12_TheCompoundPattern
 ```
 
 Or open the solution in Visual Studio and run individual projects through the IDE.

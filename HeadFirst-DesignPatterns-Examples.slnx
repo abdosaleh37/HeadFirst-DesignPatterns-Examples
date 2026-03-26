@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Ch12_TheCompoundPattern/Ch12_TheCompoundPattern.csproj" />
   <Project Path="Ch11_TheProxyPattern/Ch11_TheProxyPattern.csproj" />
   <Project Path="Ch10_TheStatePattern/Ch10_TheStatePattern.csproj" Id="a1e6e18a-03a1-43aa-bd0e-0be2a14f8d9d" />
   <Project Path="Ch1_Intro_TheStrategyPattern/Ch1_Intro_TheStrategyPattern.csproj" />
