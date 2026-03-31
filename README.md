@@ -15,7 +15,7 @@ Each project is intentionally kept simple and focused on demonstrating a single 
 
 ## 📚 What's Inside
 
-This solution contains multiple standalone C# console applications, each demonstrating a specific design pattern:
+This solution contains mostly standalone C# console applications demonstrating specific design patterns, plus a documentation-only summary chapter:
 
 ### Chapter 1: Strategy Pattern - Duck Behaviors
 
@@ -158,9 +158,19 @@ and MVC collaboration
 
 ---
 
+### Chapter 13: Better Living With Patterns
+
+**Chapter Type:** Summary chapter focused on practical pattern usage in real design.
+
+**Key Concepts:** Pattern mindset, composition of patterns, trade-offs, and avoiding overengineering
+
+📁 [Ch13_BetterLivingWithPatterns/README.md](Ch13_BetterLivingWithPatterns/README.md)
+
+---
+
 ## 🏗️ Solution Structure
 
-Each chapter is organized as a separate .NET console application with:
+Most chapters are organized as separate .NET console applications with:
 
 ```
 ChX_PatternName_Example/
@@ -215,6 +225,8 @@ dotnet run --project Ch10_TheStatePattern
 dotnet run --project Ch11_TheProxyPattern
 dotnet run --project Ch12_TheCompoundPattern
 ```
+
+Chapter 13 is intentionally documentation-only and does not include a runnable project.
 
 Or open the solution in Visual Studio and run individual projects through the IDE.
 
