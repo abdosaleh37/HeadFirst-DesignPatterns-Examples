@@ -168,6 +168,17 @@ and MVC collaboration
 
 ---
 
+### Chapter 14: Appendix - Leftover Patterns
+
+**Chapter Type:** Runnable appendix project covering the remaining GoF patterns.
+
+**Key Concepts:** Bridge, Builder, Chain of Responsibility, Flyweight, Interpreter,
+Mediator, Memento, Prototype, and Visitor
+
+📁 [Ch14_Appendix/README.md](Ch14_Appendix/README.md)
+
+---
+
 ## 🏗️ Solution Structure
 
 Most chapters are organized as separate .NET console applications with:
@@ -224,6 +235,7 @@ dotnet run --project Ch9_B_TheCompositePattern
 dotnet run --project Ch10_TheStatePattern
 dotnet run --project Ch11_TheProxyPattern
 dotnet run --project Ch12_TheCompoundPattern
+dotnet run --project Ch14_Appendix
 ```
 
 Chapter 13 is intentionally documentation-only and does not include a runnable project.
