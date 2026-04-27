@@ -23,7 +23,7 @@ This solution contains mostly standalone C# console applications demonstrating s
 
 **Key Concepts:** Composition over inheritance, encapsulating what varies, programming to interfaces
 
-📁 [Ch1_Intro_TheStrategyPattern/README.md](Ch1_Intro_TheStrategyPattern/README.md)
+📁 [Ch01_TheStrategyPattern/README.md](Ch01_TheStrategyPattern/README.md)
 
 ---
 
@@ -33,7 +33,7 @@ This solution contains mostly standalone C# console applications demonstrating s
 
 **Key Concepts:** Loose coupling, push vs pull models, dynamic observer registration
 
-📁 [Ch2_TheObserverPattern/README.md](Ch2_TheObserverPattern/README.md)
+📁 [Ch02_TheObserverPattern/README.md](Ch02_TheObserverPattern/README.md)
 
 ---
 
@@ -213,7 +213,7 @@ dotnet build
 Build a specific project:
 
 ```powershell
-dotnet build Ch1_Intro_TheStrategyPattern
+dotnet build Ch01_TheStrategyPattern
 ```
 
 ### Running Examples
@@ -221,8 +221,8 @@ dotnet build Ch1_Intro_TheStrategyPattern
 Run any project individually:
 
 ```powershell
-dotnet run --project Ch1_Intro_TheStrategyPattern
-dotnet run --project Ch2_TheObserverPattern
+dotnet run --project Ch01_TheStrategyPattern
+dotnet run --project Ch02_TheObserverPattern
 dotnet run --project Ch3_TheDecoratorPattern
 dotnet run --project Ch4_TheFactoryPattern
 dotnet run --project Ch5_TheSingletonPattern
