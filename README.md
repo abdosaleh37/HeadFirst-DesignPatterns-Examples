@@ -43,7 +43,7 @@ This solution contains mostly standalone C# console applications demonstrating s
 
 **Key Concepts:** Open/Closed Principle, composition, flexible behavior extension
 
-📁 [Ch3_TheDecoratorPattern/README.md](Ch3_TheDecoratorPattern/README.md)
+📁 [Ch03_TheDecoratorPattern/README.md](Ch03_TheDecoratorPattern/README.md)
 
 ---
 
@@ -53,7 +53,7 @@ This solution contains mostly standalone C# console applications demonstrating s
 
 **Key Concepts:** Encapsulated object creation, dependency inversion, product families
 
-📁 [Ch4_TheFactoryPattern/README.md](Ch4_TheFactoryPattern/README.md)
+📁 [Ch04_TheFactoryPattern/README.md](Ch04_TheFactoryPattern/README.md)
 
 ---
 
@@ -223,8 +223,8 @@ Run any project individually:
 ```powershell
 dotnet run --project Ch01_TheStrategyPattern
 dotnet run --project Ch02_TheObserverPattern
-dotnet run --project Ch3_TheDecoratorPattern
-dotnet run --project Ch4_TheFactoryPattern
+dotnet run --project Ch03_TheDecoratorPattern
+dotnet run --project Ch04_TheFactoryPattern
 dotnet run --project Ch5_TheSingletonPattern
 dotnet run --project Ch6_TheCommandPattern
 dotnet run --project Ch7_A_TheAdapterPattern
@@ -309,3 +309,4 @@ Feel free to:
 ---
 
 **Happy Learning! 🎉** Each pattern you master is a powerful tool in your software design toolkit.
+

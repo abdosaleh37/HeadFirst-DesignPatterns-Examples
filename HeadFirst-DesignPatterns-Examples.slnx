@@ -4,8 +4,8 @@
   <Project Path="Ch10_TheStatePattern/Ch10_TheStatePattern.csproj" Id="a1e6e18a-03a1-43aa-bd0e-0be2a14f8d9d" />
   <Project Path="Ch01_TheStrategyPattern/Ch01_TheStrategyPattern.csproj" />
   <Project Path="Ch02_TheObserverPattern/Ch02_TheObserverPattern.csproj" Id="6056e41b-59e0-40cc-8bb6-afc87f473762" />
-  <Project Path="Ch3_TheDecoratorPattern/Ch3_TheDecoratorPattern.csproj" Id="6d832bea-c043-4850-a9ce-a0e6ce9c949a" />
-  <Project Path="Ch4_TheFactoryPattern/Ch4_TheFactoryPattern.csproj" Id="02faf98d-3789-4586-b2e0-395caddf2c74" />
+  <Project Path="Ch03_TheDecoratorPattern/Ch03_TheDecoratorPattern.csproj" Id="6d832bea-c043-4850-a9ce-a0e6ce9c949a" />
+  <Project Path="Ch04_TheFactoryPattern/Ch04_TheFactoryPattern.csproj" Id="02faf98d-3789-4586-b2e0-395caddf2c74" />
   <Project Path="Ch5_TheSingletonPattern/Ch5_TheSingletonPattern.csproj" Id="e4af5ff6-929c-472d-bdb7-ee5b3f7f6575" />
   <Project Path="Ch6_TheCommandPattern/Ch6_TheCommandPattern.csproj" Id="24ef9ec0-f91e-495a-ac23-ca6a7fb18bc2" />
   <Project Path="Ch7_A_TheAdapterPattern/Ch7_A_TheAdapterPattern.csproj" Id="ccd4a7c9-94a4-4bc1-9861-f818dbfa4b2b" />
@@ -15,3 +15,4 @@
   <Project Path="Ch9_B_TheCompositePattern/Ch9_B_TheCompositePattern.csproj" Id="1c0f301a-1d61-4619-b32d-9a2a827ca946" />
   <Project Path="Ch14_Appendix/Ch14_Appendix.csproj" />
 </Solution>
+
