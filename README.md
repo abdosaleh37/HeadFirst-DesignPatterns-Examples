@@ -63,7 +63,7 @@ This solution contains mostly standalone C# console applications demonstrating s
 
 **Key Concepts:** Single instance control, thread safety, eager vs lazy initialization
 
-📁 [Ch5_TheSingletonPattern/README.md](Ch5_TheSingletonPattern/README.md)
+📁 [Ch05_TheSingletonPattern/README.md](Ch05_TheSingletonPattern/README.md)
 
 ---
 
@@ -73,7 +73,7 @@ This solution contains mostly standalone C# console applications demonstrating s
 
 **Key Concepts:** Undo support, macro commands, decoupled invoker/receiver
 
-📁 [Ch6_TheCommandPattern/README.md](Ch6_TheCommandPattern/README.md)
+📁 [Ch06_TheCommandPattern/README.md](Ch06_TheCommandPattern/README.md)
 
 ---
 
@@ -225,8 +225,8 @@ dotnet run --project Ch01_TheStrategyPattern
 dotnet run --project Ch02_TheObserverPattern
 dotnet run --project Ch03_TheDecoratorPattern
 dotnet run --project Ch04_TheFactoryPattern
-dotnet run --project Ch5_TheSingletonPattern
-dotnet run --project Ch6_TheCommandPattern
+dotnet run --project Ch05_TheSingletonPattern
+dotnet run --project Ch06_TheCommandPattern
 dotnet run --project Ch7_A_TheAdapterPattern
 dotnet run --project Ch7_B_TheFacadePattern
 dotnet run --project Ch8_TheTemplateMethodPattern
