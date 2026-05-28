@@ -1,7 +1,12 @@
-namespace Ch9_B_TheCompositePattern.Abstracts
+using System.Collections.Generic;
+
+namespace Ch09B_TheCompositePattern.Abstracts
 {
     public abstract class MenuComponent
     {
+        public virtual IEnumerable<MenuComponent> GetChildren()
+            => Array.Empty<MenuComponent>();
+
         public virtual void Add(MenuComponent component)
             => throw new NotSupportedException();
 

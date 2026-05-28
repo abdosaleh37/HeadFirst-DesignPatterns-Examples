@@ -1,7 +1,7 @@
-﻿using System.Collections;
-using Ch9_A_TheIteratorPattern.Models;
+using System.Collections;
+using Ch09A_TheIteratorPattern.Models;
 
-namespace Ch9_A_TheIteratorPattern.Menus
+namespace Ch09A_TheIteratorPattern.Menus
 {
     public class CafeMenu : IEnumerable<MenuItem>
     {

@@ -1,6 +1,6 @@
-using Ch9_B_TheCompositePattern.Abstracts;
+using Ch09B_TheCompositePattern.Abstracts;
 
-namespace Ch9_B_TheCompositePattern.Models
+namespace Ch09B_TheCompositePattern.Models
 {
     public class Menu : MenuComponent
     {
@@ -20,6 +20,8 @@ namespace Ch9_B_TheCompositePattern.Models
         public override void Remove(MenuComponent component) => _components.Remove(component);
 
         public override MenuComponent GetChild(int i) => _components[i];
+
+        public override IEnumerable<MenuComponent> GetChildren() => _components;
 
         public override void Print()
         {

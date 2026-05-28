@@ -1,6 +1,6 @@
-using Ch9_A_TheIteratorPattern.Models;
+using Ch09A_TheIteratorPattern.Models;
 
-namespace Ch9_A_TheIteratorPattern.Interfaces
+namespace Ch09A_TheIteratorPattern.Interfaces
 {
     public interface IMenu
     {

@@ -1,4 +1,4 @@
-﻿namespace Ch9_A_TheIteratorPattern.Models
+namespace Ch09A_TheIteratorPattern.Models
 {
     public class MenuItem
     {

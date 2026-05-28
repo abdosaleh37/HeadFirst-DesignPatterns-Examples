@@ -1,6 +1,6 @@
-using Ch9_A_TheIteratorPattern.Models;
+using Ch09A_TheIteratorPattern.Models;
 
-namespace Ch9_A_TheIteratorPattern.Client
+namespace Ch09A_TheIteratorPattern.Client
 {
     public class WaitressV2
     {

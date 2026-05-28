@@ -1,6 +1,6 @@
-﻿using Ch9_B_TheCompositePattern.Abstracts;
+using Ch09B_TheCompositePattern.Abstracts;
 
-namespace Ch9_B_TheCompositePattern.Models
+namespace Ch09B_TheCompositePattern.Models
 {
     public class MenuItem : MenuComponent
     {

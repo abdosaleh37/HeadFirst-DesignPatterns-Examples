@@ -113,7 +113,7 @@ This solution contains mostly standalone C# console applications demonstrating s
 
 **Key Concepts:** Traversal abstraction, aggregate interfaces, decoupled iteration
 
-📁 [Ch9_A_TheIteratorPattern/README.md](Ch9_A_TheIteratorPattern/README.md)
+📁 [Ch09A_TheIteratorPattern/README.md](Ch09A_TheIteratorPattern/README.md)
 
 ---
 
@@ -123,7 +123,7 @@ This solution contains mostly standalone C# console applications demonstrating s
 
 **Key Concepts:** Uniform treatment of leaf/composite objects, recursive composition
 
-📁 [Ch9_B_TheCompositePattern/README.md](Ch9_B_TheCompositePattern/README.md)
+📁 [Ch09B_TheCompositePattern/README.md](Ch09B_TheCompositePattern/README.md)
 
 ---
 
@@ -230,8 +230,8 @@ dotnet run --project Ch06_TheCommandPattern
 dotnet run --project Ch07A_TheAdapterPattern
 dotnet run --project Ch07B_TheFacadePattern
 dotnet run --project Ch08_TheTemplateMethodPattern
-dotnet run --project Ch9_A_TheIteratorPattern
-dotnet run --project Ch9_B_TheCompositePattern
+dotnet run --project Ch09A_TheIteratorPattern
+dotnet run --project Ch09B_TheCompositePattern
 dotnet run --project Ch10_TheStatePattern
 dotnet run --project Ch11_TheProxyPattern
 dotnet run --project Ch12_TheCompoundPattern

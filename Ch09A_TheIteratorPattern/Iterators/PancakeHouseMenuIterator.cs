@@ -1,7 +1,7 @@
-using Ch9_A_TheIteratorPattern.Interfaces;
-using Ch9_A_TheIteratorPattern.Models;
+using Ch09A_TheIteratorPattern.Interfaces;
+using Ch09A_TheIteratorPattern.Models;
 
-namespace Ch9_A_TheIteratorPattern.Iterators
+namespace Ch09A_TheIteratorPattern.Iterators
 {
     public class PancakeHouseMenuIterator : IIterator<MenuItem>
     {

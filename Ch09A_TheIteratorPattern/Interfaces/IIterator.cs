@@ -1,4 +1,4 @@
-namespace Ch9_A_TheIteratorPattern.Interfaces
+namespace Ch09A_TheIteratorPattern.Interfaces
 {
     public interface IIterator<T>
     {

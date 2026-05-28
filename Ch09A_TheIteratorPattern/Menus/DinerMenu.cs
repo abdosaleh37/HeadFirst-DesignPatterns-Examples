@@ -1,9 +1,9 @@
 using System.Collections;
-using Ch9_A_TheIteratorPattern.Interfaces;
-using Ch9_A_TheIteratorPattern.Iterators;
-using Ch9_A_TheIteratorPattern.Models;
+using Ch09A_TheIteratorPattern.Interfaces;
+using Ch09A_TheIteratorPattern.Iterators;
+using Ch09A_TheIteratorPattern.Models;
 
-namespace Ch9_A_TheIteratorPattern.Menus
+namespace Ch09A_TheIteratorPattern.Menus
 {
     public class DinerMenu : IMenu, IEnumerable<MenuItem>
     {
