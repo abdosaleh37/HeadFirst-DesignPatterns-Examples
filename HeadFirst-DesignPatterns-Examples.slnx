@@ -8,9 +8,9 @@
   <Project Path="Ch04_TheFactoryPattern/Ch04_TheFactoryPattern.csproj" Id="02faf98d-3789-4586-b2e0-395caddf2c74" />
   <Project Path="Ch05_TheSingletonPattern/Ch05_TheSingletonPattern.csproj" Id="e4af5ff6-929c-472d-bdb7-ee5b3f7f6575" />
   <Project Path="Ch06_TheCommandPattern/Ch06_TheCommandPattern.csproj" Id="24ef9ec0-f91e-495a-ac23-ca6a7fb18bc2" />
-  <Project Path="Ch7_A_TheAdapterPattern/Ch7_A_TheAdapterPattern.csproj" Id="ccd4a7c9-94a4-4bc1-9861-f818dbfa4b2b" />
-  <Project Path="Ch7_B_TheFacadePattern/Ch7_B_TheFacadePattern.csproj" Id="b0d6d206-b4cf-4676-9514-ae60b48431cd" />
-  <Project Path="Ch8_TheTemplateMethodPattern/Ch8_TheTemplateMethodPattern.csproj" Id="83c164f4-c489-41ce-aff8-db081e3fca57" />
+  <Project Path="Ch07A_TheAdapterPattern/Ch07A_TheAdapterPattern.csproj" Id="ccd4a7c9-94a4-4bc1-9861-f818dbfa4b2b" />
+  <Project Path="Ch07B_TheFacadePattern/Ch07B_TheFacadePattern.csproj" Id="b0d6d206-b4cf-4676-9514-ae60b48431cd" />
+  <Project Path="Ch08_TheTemplateMethodPattern/Ch08_TheTemplateMethodPattern.csproj" Id="83c164f4-c489-41ce-aff8-db081e3fca57" />
   <Project Path="Ch9_A_TheIteratorPattern/Ch9_A_TheIteratorPattern.csproj" Id="129c6e9c-ba99-4215-b0e9-3aa4a871e280" />
   <Project Path="Ch9_B_TheCompositePattern/Ch9_B_TheCompositePattern.csproj" Id="1c0f301a-1d61-4619-b32d-9a2a827ca946" />
   <Project Path="Ch14_Appendix/Ch14_Appendix.csproj" />

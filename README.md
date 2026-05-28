@@ -83,7 +83,7 @@ This solution contains mostly standalone C# console applications demonstrating s
 
 **Key Concepts:** Object adapters, legacy integration, interface translation
 
-📁 [Ch7_A_TheAdapterPattern/README.md](Ch7_A_TheAdapterPattern/README.md)
+📁 [Ch07A_TheAdapterPattern/README.md](Ch07A_TheAdapterPattern/README.md)
 
 ---
 
@@ -93,7 +93,7 @@ This solution contains mostly standalone C# console applications demonstrating s
 
 **Key Concepts:** Subsystem simplification, reduced coupling, orchestration API
 
-📁 [Ch7_B_TheFacadePattern/README.md](Ch7_B_TheFacadePattern/README.md)
+📁 [Ch07B_TheFacadePattern/README.md](Ch07B_TheFacadePattern/README.md)
 
 ---
 
@@ -103,7 +103,7 @@ This solution contains mostly standalone C# console applications demonstrating s
 
 **Key Concepts:** Inversion of control, hooks, code reuse through templates
 
-📁 [Ch8_TheTemplateMethodPattern/README.md](Ch8_TheTemplateMethodPattern/README.md)
+📁 [Ch08_TheTemplateMethodPattern/README.md](Ch08_TheTemplateMethodPattern/README.md)
 
 ---
 
@@ -227,9 +227,9 @@ dotnet run --project Ch03_TheDecoratorPattern
 dotnet run --project Ch04_TheFactoryPattern
 dotnet run --project Ch05_TheSingletonPattern
 dotnet run --project Ch06_TheCommandPattern
-dotnet run --project Ch7_A_TheAdapterPattern
-dotnet run --project Ch7_B_TheFacadePattern
-dotnet run --project Ch8_TheTemplateMethodPattern
+dotnet run --project Ch07A_TheAdapterPattern
+dotnet run --project Ch07B_TheFacadePattern
+dotnet run --project Ch08_TheTemplateMethodPattern
 dotnet run --project Ch9_A_TheIteratorPattern
 dotnet run --project Ch9_B_TheCompositePattern
 dotnet run --project Ch10_TheStatePattern
