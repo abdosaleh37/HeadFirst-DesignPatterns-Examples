@@ -7,37 +7,19 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-// -----------------------------------------------------------------------------
-//  CHAPTER 11 - THE PROXY PATTERN
-// -----------------------------------------------------------------------------
-PrintHeader("CHAPTER 11 - THE PROXY PATTERN", '=');
-Console.WriteLine(
-    """
-    The Proxy Pattern provides a surrogate or placeholder for another object
-    to control access to it.
-
-    This chapter demonstrates:
-      1. Remote Proxy (Minimal API + HttpClient)
-      2. Virtual Proxy (lazy loading)
-      3. Protection Proxy (owner vs non-owner permissions)
-    """);
+PrintSection("Chapter 11 - Proxy Pattern");
+Console.WriteLine("Scenarios: Remote, Virtual, Protection");
 
 await RunRemoteProxyDemoAsync();
 RunVirtualProxyDemo();
 RunProtectionProxyDemo();
 
-PrintHeader("SUMMARY", '=');
-Console.WriteLine(
-    """
-    Key takeaways:
-      - Remote Proxy hides network boundaries behind a local interface.
-      - Virtual Proxy delays expensive creation until it is needed.
-      - Protection Proxy enforces rules before allowing operations.
-    """);
+PrintSection("Summary");
+Console.WriteLine("Remote hides network access, virtual defers work, protection gates behavior.");
 
 static async Task RunRemoteProxyDemoAsync()
 {
-    PrintHeader("PART 1: Remote Proxy (Minimal API)", '-');
+    PrintSection("Remote Proxy (Minimal API)");
 
     var machineService = new GumballMachineService("Seattle", 5);
 
@@ -80,7 +62,7 @@ static async Task RunRemoteProxyDemoAsync()
 
 static void RunVirtualProxyDemo()
 {
-    PrintHeader("PART 2: Virtual Proxy", '-');
+    PrintSection("Virtual Proxy (Lazy load)");
 
     IIcon icon = new ImageProxy("https://example.com/album-cover.jpg");
 
@@ -91,7 +73,7 @@ static void RunVirtualProxyDemo()
 
 static void RunProtectionProxyDemo()
 {
-    PrintHeader("PART 3: Protection Proxy", '-');
+    PrintSection("Protection Proxy (Owner vs Non-owner)");
 
     var person = new PersonBean("Joe Javabean", "Male", "Coding, Music");
 
@@ -121,11 +103,10 @@ static void TryAction(string actionName, Action action)
     }
 }
 
-static void PrintHeader(string title, char separator)
+static void PrintSection(string title)
 {
-    string line = new string(separator, 79);
     Console.WriteLine();
-    Console.WriteLine(line);
-    Console.WriteLine($"  {title}");
-    Console.WriteLine(line);
+    Console.WriteLine(new string('-', 60));
+    Console.WriteLine(title);
+    Console.WriteLine(new string('-', 60));
 }

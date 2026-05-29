@@ -7,31 +7,24 @@ using Ch12_TheCompoundPattern.Models;
 using Ch12_TheCompoundPattern.Models.MVC;
 using Ch12_TheCompoundPattern.Observers;
 
-PrintHeader("CHAPTER 12 - THE COMPOUND PATTERN", '=');
-Console.WriteLine(
-    """
-    A Compound Pattern combines multiple patterns to solve a larger problem.
-
-    This chapter demonstrates two examples from the book:
-      1. Duck Simulator (Adapter + Decorator + Abstract Factory + Composite + Observer)
-      2. MVC architecture (Model + View + Controller, with Observer at the core)
-    """);
+PrintSection("Chapter 12 - Compound Pattern");
+Console.WriteLine("Duck Simulator + MVC compound examples");
 
 RunDuckSimulatorDemo();
 RunMvcDemo();
 
-PrintHeader("SUMMARY", '=');
-Console.WriteLine(
-    """
-    Key takeaways:
-      - Compound Pattern is not a single GoF pattern; it is pattern composition.
-      - Duck Simulator shows how small patterns remain independent yet cooperative.
-      - MVC demonstrates an architectural compound where responsibilities stay separated.
-    """);
+PrintSection("Summary");
+Console.WriteLine("Compound patterns combine focused roles into one coherent system.");
 
 static void RunDuckSimulatorDemo()
 {
-    PrintHeader("PART 1: Duck Simulator Compound", '-');
+    PrintSection("Duck Simulator (Adapter, Decorator, Abstract Factory, Composite, Observer)");
+
+    Console.WriteLine("Adapter: GooseAdapter makes a goose quackable.");
+    Console.WriteLine("Decorator: QuackCounter tracks quacks.");
+    Console.WriteLine("Abstract Factory: CountingDuckFactory creates wrapped ducks.");
+    Console.WriteLine("Composite: Flock groups ducks.");
+    Console.WriteLine("Observer: Quackologist listens for quacks.");
 
     QuackCounter.Reset();
     IAbstractDuckFactory duckFactory = new CountingDuckFactory();
@@ -68,7 +61,7 @@ static void RunDuckSimulatorDemo()
 
 static void RunMvcDemo()
 {
-    PrintHeader("PART 2: MVC (Beat Model)", '-');
+    PrintSection("MVC (Beat Model)");
 
     var beatModel = new BeatModel();
     IBeatModel model = beatModel;
@@ -109,11 +102,10 @@ static void Simulate(IQuackable duck)
     duck.Quack();
 }
 
-static void PrintHeader(string title, char separator)
+static void PrintSection(string title)
 {
-    string line = new string(separator, 79);
     Console.WriteLine();
-    Console.WriteLine(line);
-    Console.WriteLine($"  {title}");
-    Console.WriteLine(line);
+    Console.WriteLine(new string('-', 60));
+    Console.WriteLine(title);
+    Console.WriteLine(new string('-', 60));
 }

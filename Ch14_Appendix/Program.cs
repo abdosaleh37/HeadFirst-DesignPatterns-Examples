@@ -8,27 +8,35 @@ using Ch14_Appendix.Memento;
 using Ch14_Appendix.Prototype;
 using Ch14_Appendix.Visitor;
 
-PrintHeader("CHAPTER 14 - APPENDIX: LEFTOVER PATTERNS", '=');
-Console.WriteLine("This chapter demonstrates the remaining GoF patterns with focused demos.");
+PrintSection("Chapter 14 - Appendix: Leftover Patterns");
+Console.WriteLine("Nine focused demos, one per remaining GoF pattern.");
 
-BridgeDemo.Run();
-BuilderDemo.Run();
-ChainDemo.Run();
-FlyweightDemo.Run();
-InterpreterDemo.Run();
-MediatorDemo.Run();
-MementoDemo.Run();
-PrototypeDemo.Run();
-VisitorDemo.Run();
-
-PrintHeader("CHAPTER 14 SUMMARY", '=');
-Console.WriteLine("You have now seen examples for all leftover appendix patterns.");
-
-static void PrintHeader(string title, char separator)
+var demos = new (string Title, Action Run)[]
 {
-    string line = new string(separator, 79);
+    ("Bridge", BridgeDemo.Run),
+    ("Builder", BuilderDemo.Run),
+    ("Chain of Responsibility", ChainDemo.Run),
+    ("Flyweight", FlyweightDemo.Run),
+    ("Interpreter", InterpreterDemo.Run),
+    ("Mediator", MediatorDemo.Run),
+    ("Memento", MementoDemo.Run),
+    ("Prototype", PrototypeDemo.Run),
+    ("Visitor", VisitorDemo.Run)
+};
+
+foreach (var (title, run) in demos)
+{
+    PrintSection(title);
+    run();
+}
+
+PrintSection("Summary");
+Console.WriteLine("Appendix patterns complete.");
+
+static void PrintSection(string title)
+{
     Console.WriteLine();
-    Console.WriteLine(line);
-    Console.WriteLine($"  {title}");
-    Console.WriteLine(line);
+    Console.WriteLine(new string('-', 60));
+    Console.WriteLine(title);
+    Console.WriteLine(new string('-', 60));
 }

@@ -30,10 +30,11 @@ Refactoring to the State Pattern moves each behavior into a dedicated state clas
 +------------------+       +------------------+
          ^
          |
-  +------+------+-----+
-  | NoQuarter | Sold |
+  +------+------+-------+
+  | NoQuarter | Sold    |
   | HasQuarter| SoldOut |
-  | Winner    |     |
+  | Winner    |         |
+  +------+------+-------+
 ```
 
 ## Participants
